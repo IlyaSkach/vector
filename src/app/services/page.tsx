@@ -2,8 +2,8 @@
 
 import React from "react";
 import styled from "styled-components";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const MainContainer = styled.div`
   min-height: 100vh;
@@ -19,13 +19,13 @@ const MainContent = styled.main`
   width: 100%;
 `;
 
-export default function Home() {
+export default function Services() {
   return (
     <MainContainer>
       <Header />
       <MainContent>
-        <h1>Добро пожаловать</h1>
-        <p>Здесь будет основной контент главной страницы</p>
+        <h1>Услуги</h1>
+        <p>Здесь будет информация об услугах</p>
       </MainContent>
       <Footer />
     </MainContainer>
